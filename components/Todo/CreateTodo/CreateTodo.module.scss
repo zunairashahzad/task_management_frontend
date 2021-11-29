@@ -1,0 +1,21 @@
+.createButton {
+  border-radius: 50%;
+  position: fixed;
+  right: 20px;
+  top: 75px;
+  z-index: 9;
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    top: 60px;
+    right: 15px;
+  }
+
+  @media only screen and (max-width: 767px) {
+    bottom: 15px;
+    top: unset;
+  }
+}
+
+.textArea {
+  height: 100px;
+}
